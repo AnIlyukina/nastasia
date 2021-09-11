@@ -59,7 +59,7 @@ display: flex;
 
 }
 
-.card1__link{
+.card1__link-park{
   min-width: 40px;
   background-image: url('./img/linkinpark.png');
   z-index: 3;
@@ -68,7 +68,7 @@ display: flex;
   border-radius: 10px;
 }
 
-.card2 {
+.card1__evanesense {
   display: flex;
   max-width: 160px;
   min-height: 180px;
@@ -77,3 +77,28 @@ display: flex;
   box-shadow: -4px 4px 0px #444443;
   border-radius: 10px;
 }
+
+.card1__link-eva{
+  min-width: 40px;
+  background-image: url('./img/IMG_3583.jpg');
+  z-index: 3;
+  padding: 90px 60px;
+  background-size: cover;
+  border-radius: 10px;
+}
+
+.card2{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  max-width: 425px;
+  min-height: 525px;
+  background-image: url('./img/IMG_3203.JPG');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-sizing: border-box;
+  margin: 16px auto 0;
+  padding-top: 30px;
+  padding-bottom: 20px;
