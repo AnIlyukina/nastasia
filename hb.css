@@ -1,6 +1,7 @@
 *{
   margin: 0;
   padding: 0;
+  /* background-color: rgb(9, 21, 37); */
 }
 
 .page{
@@ -29,6 +30,10 @@ display: flex;
 }
 
 .card1{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
   max-width: 425px;
   min-height: 525px;
   background-image: url('./img/IMG_3211.JPG');
@@ -37,16 +42,20 @@ display: flex;
   background-size: cover;
   box-sizing: border-box;
   margin: 16px auto 0;
+  padding-top: 30px;
+  padding-bottom: 20px;
 }
 
 .card1__linkin-park{
   display: flex;
   justify-content: center;
   align-items: center;
-  max-width: 200px;
-  min-height: 200px;
-  background-color: #fff;
-  margin: 0 0 0 10px;
+  max-width: 160px;
+  min-height: 180px;
+  background-color: #444443;
+  margin: 0 0 0 20px;
+  box-shadow: -4px 4px 0px #444443;
+  border-radius: 10px;
 
 }
 
@@ -56,5 +65,15 @@ display: flex;
   z-index: 3;
   padding: 90px 60px;
   background-size: cover;
-  
+  border-radius: 10px;
+}
+
+.card2 {
+  display: flex;
+  max-width: 160px;
+  min-height: 180px;
+  background-color: #444443;
+  margin: 0 0 0 50px;
+  box-shadow: -4px 4px 0px #444443;
+  border-radius: 10px;
 }
