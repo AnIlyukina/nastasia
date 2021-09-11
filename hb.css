@@ -1,0 +1,60 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.page{
+  width: 100%;
+  min-width: 320px;
+  margin: 0 auto;
+}
+
+.header{
+max-width: 425px;
+min-height: 200px;
+background-image: url(/img/iwF9nyiik2s.jpg);
+background-size: cover;
+background-position: center;
+margin: 0 auto;
+display: flex;
+}
+
+.header__link{
+  background-color: #fff;
+  padding: 1px;
+  align-self:flex-end;
+  margin: 0 auto 1px;
+  color: black;
+  text-decoration: none;
+}
+
+.card1{
+  max-width: 425px;
+  min-height: 525px;
+  background-image: url(/img/IMG_3211.JPG);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-sizing: border-box;
+  margin: 16px auto 0;
+}
+
+.card1__linkin-park{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 200px;
+  min-height: 200px;
+  background-color: #fff;
+  margin: 0 0 0 10px;
+
+}
+
+.card1__link{
+  min-width: 40px;
+  background-image: url(/img/linkinpark.png);
+  z-index: 3;
+  padding: 90px 60px;
+  background-size: cover;
+  
+}
