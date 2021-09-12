@@ -108,7 +108,7 @@ display: flex;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  align-items: flex-start;
+  align-items: flex-end;
   max-width: 425px;
   min-height: 525px;
   background-image: url('./img/IMG_3202.JPG');
@@ -125,7 +125,7 @@ display: flex;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  align-items: flex-start;
+  align-items: flex-end;
   max-width: 425px;
   min-height: 525px;
   background-image: url('./img/IMG_3200.JPG');
@@ -180,11 +180,10 @@ display: flex;
 
 .card3__eldjey{
   display: flex;
-
   max-width: 160px;
   min-height: 180px;
   background-color: #cacac1;
-  margin: 0 0 0 250px;
+  margin: 0 20px 0 0;
   box-shadow: -4px 4px 0px #cacac1;
   border-radius: 10px;
 }
@@ -203,7 +202,7 @@ display: flex;
   max-width: 160px;
   min-height: 180px;
   background-color: #cacac1;
-  margin: 0 0 0 200px;
+  margin: 0 50px 0 0px;
   box-shadow: -4px 4px 0px #cacac1;
   border-radius: 10px;
 }
@@ -224,7 +223,7 @@ display: flex;
   max-width: 160px;
   min-height: 180px;
   background-color: #cacac1;
-  margin: 0 0 0 250px;
+  margin: 0 20px 0 0;
   box-shadow: -4px 4px 0px #cacac1;
   border-radius: 10px;
 }
@@ -243,7 +242,7 @@ display: flex;
   max-width: 160px;
   min-height: 180px;
   background-color: #cacac1;
-  margin: 0 0 0 200px;
+  margin: 0 50px 0 0;
   box-shadow: -4px 4px 0px #cacac1;
   border-radius: 10px;
 }
@@ -255,4 +254,18 @@ display: flex;
   padding: 90px 55px;
   background-size: cover;
   border-radius: 10px;
+}
+
+.footer{
+max-width: 425px;
+min-height: 200px;
+background-image: url('./img/IMG_3206.JPG');
+background-size: cover;
+background-position: center;
+margin: 16px auto 0px;
+display: flex;
+justify-content: flex-end;
+align-items: flex-end;
+color: white;
+font-size: 10px;
 }
