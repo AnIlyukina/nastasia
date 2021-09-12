@@ -52,18 +52,18 @@ display: flex;
   align-items: center;
   max-width: 160px;
   min-height: 180px;
-  background-color: #444443;
+  background-color: #cacac1;
   margin: 0 0 0 20px;
-  box-shadow: -4px 4px 0px #444443;
+  box-shadow: -4px 4px 0px #cacac1;
   border-radius: 10px;
 
 }
 
 .card1__link-park{
   min-width: 40px;
-  background-image: url('./img/linkinpark.png');
+  background-image: url('./img/IMG_3594.jpg');
   z-index: 3;
-  padding: 90px 60px;
+  padding: 90px 55px;
   background-size: cover;
   border-radius: 10px;
 }
@@ -72,9 +72,9 @@ display: flex;
   display: flex;
   max-width: 160px;
   min-height: 180px;
-  background-color: #444443;
+  background-color: #cacac1;
   margin: 0 0 0 50px;
-  box-shadow: -4px 4px 0px #444443;
+  box-shadow: -4px 4px 0px #cacac1;
   border-radius: 10px;
 }
 
@@ -82,7 +82,7 @@ display: flex;
   min-width: 40px;
   background-image: url('./img/IMG_3583.jpg');
   z-index: 3;
-  padding: 90px 60px;
+  padding: 90px 55px;
   background-size: cover;
   border-radius: 10px;
 }
@@ -102,3 +102,157 @@ display: flex;
   margin: 16px auto 0;
   padding-top: 30px;
   padding-bottom: 20px;
+}
+
+.card3{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  max-width: 425px;
+  min-height: 525px;
+  background-image: url('./img/IMG_3202.JPG');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-sizing: border-box;
+  margin: 16px auto 0;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+.card4{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  max-width: 425px;
+  min-height: 525px;
+  background-image: url('./img/IMG_3200.JPG');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-sizing: border-box;
+  margin: 16px auto 0;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+.card2__korolishut{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 160px;
+  min-height: 180px;
+  background-color: #cacac1;
+  margin: 0 0 0 20px;
+  box-shadow: -4px 4px 0px #cacac1;
+  border-radius: 10px;
+}
+
+.card2__link-korolishut{
+  min-width: 40px;
+  background-image: url('./img/IMG_3588.jpg');
+  z-index: 3;
+  padding: 90px 55px;
+  background-size: cover;
+  border-radius: 10px;
+}
+
+.card2__maneskin{
+  display: flex;
+  max-width: 160px;
+  min-height: 180px;
+  background-color: #cacac1;
+  margin: 0 0 0 50px;
+  box-shadow: -4px 4px 0px #cacac1;
+  border-radius: 10px;
+}
+
+.card2__link-maneskin{
+  min-width: 40px;
+  background-image: url('./img/IMG_3589.jpg');
+  z-index: 3;
+  padding: 90px 55px;
+  background-size: cover;
+  border-radius: 10px;
+}
+
+.card3__eldjey{
+  display: flex;
+
+  max-width: 160px;
+  min-height: 180px;
+  background-color: #cacac1;
+  margin: 0 0 0 250px;
+  box-shadow: -4px 4px 0px #cacac1;
+  border-radius: 10px;
+}
+
+.card3__link-eldjey{
+  min-width: 40px;
+  background-image: url('./img/IMG_3593.jpg');
+  z-index: 3;
+  padding: 90px 55px;
+  background-size: cover;
+  border-radius: 10px;
+}
+
+.card3__gangvest{
+  display: flex;
+  max-width: 160px;
+  min-height: 180px;
+  background-color: #cacac1;
+  margin: 0 0 0 200px;
+  box-shadow: -4px 4px 0px #cacac1;
+  border-radius: 10px;
+}
+
+.card3__link-gangvest{
+  min-width: 40px;
+  background-image: url('./img/IMG_3592.jpg');
+  z-index: 3;
+  padding: 90px 55px;
+  background-size: cover;
+  border-radius: 10px;
+}
+
+.card4__scriptonit{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 160px;
+  min-height: 180px;
+  background-color: #cacac1;
+  margin: 0 0 0 250px;
+  box-shadow: -4px 4px 0px #cacac1;
+  border-radius: 10px;
+}
+
+.card4__link-scriptonit{
+  min-width: 40px;
+  background-image: url('./img/IMG_3590.jpg');
+  z-index: 3;
+  padding: 90px 55px;
+  background-size: cover;
+  border-radius: 10px;
+}
+
+.card4__brothers{
+  display: flex;
+  max-width: 160px;
+  min-height: 180px;
+  background-color: #cacac1;
+  margin: 0 0 0 200px;
+  box-shadow: -4px 4px 0px #cacac1;
+  border-radius: 10px;
+}
+
+.card4__link-brothers{
+  min-width: 40px;
+  background-image: url('./img/IMG_3591.jpg');
+  z-index: 3;
+  padding: 90px 55px;
+  background-size: cover;
+  border-radius: 10px;
+}
